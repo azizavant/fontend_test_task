@@ -1,0 +1,40 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0.3rem 8rem 1rem 8rem;
+    background-color: #161f34;
+    width: auto;
+    padding: 1rem;
+    border-radius: 0.625rem;
+}
+
+.userImage {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+}
+
+.h3 {
+    color: #fff;
+    /*margin-bottom: 0.5rem;*/
+}
+
+.mainDiv {
+    margin: 0;
+    padding: 0;
+}
+
+.user {
+    color: #51bdec;
+}
+
+.time {
+    color: slategray;
+}
+
+@media (max-width: 760px) {
+    .cards {
+        width: 100%;
+        margin: auto;
+    }
+}

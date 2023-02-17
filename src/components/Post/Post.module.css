@@ -1,0 +1,42 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 14px;
+}
+
+.cards div {
+    background-color: #161f34;
+    padding: 1rem;
+    border-radius: 0.625rem;
+    margin: 2rem 20rem;
+}
+
+.h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.cards div ul {
+    list-style-type:  none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.cards div ul li {
+    color: slategray;
+}
+
+.cards div ul li a {
+    color: slategray;
+    text-decoration: underline;
+}
+
+.cards div ul li a:hover {
+    color: #fff
+}
+
+.cards div p {
+    color: slategray;
+}

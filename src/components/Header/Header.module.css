@@ -1,0 +1,83 @@
+form {
+    margin-bottom: 2rem;
+}
+
+.input {
+    outline: none;
+    font-size: 1.5rem;
+    font-family: inherit;
+    background-color: transparent;
+    padding: 1.25rem 1rem;
+    color: slategray;
+    border: 0.1rem solid slategray;
+    margin-right: 1rem;
+    border-radius: 0.625rem;
+}
+
+.input::placeholder {
+    color: slategray;
+}
+
+.button {
+    outline: none;
+    font-size: 1.5rem;
+    font-family: inherit;
+    background-color: #fff;
+    border: 0.1rem solid slategray;
+    padding: 1.25rem 1rem;
+    border-radius: 0.625rem;
+    transition: all 0.15s ease-in-out;
+}
+
+.button:hover {
+    background-color: transparent;
+    cursor: pointer;
+    color: slategray;
+}
+
+.section {
+    padding: 1.25rem;
+}
+
+.section .title h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.section .title a {
+    color: slategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+}
+
+.section .title a:hover {
+    color: #fff;
+}
+
+
+@media (min-width: 1024px) {
+    .section .title h1 {
+        font-size: 4rem;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .section {
+        max-width: 992px;
+        margin: auto;
+    }
+}
