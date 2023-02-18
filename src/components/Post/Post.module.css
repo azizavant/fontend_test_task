@@ -5,15 +5,23 @@
 }
 
 .cards div {
-    background-color: #161f34;
+    background-color: #323d56;
     padding: 1rem;
     border-radius: 0.625rem;
     margin: 2rem 20rem;
 }
 
-.h2 {
-    color: #fff;
+h2 {
+    color: #ffffff;
     margin-bottom: 1rem;
+}
+
+.icon {
+    color: #3fc0f8;
+}
+
+.time {
+    color: #51bdec;
 }
 
 .cards div ul {

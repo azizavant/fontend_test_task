@@ -12,7 +12,7 @@ export const newsPageAPI = {
         return instance.get(`/item/${singleNewsId.toString()}.json?print=pretty`).then(res => res.data)
     },
     getNewsIDs: () => {
-        return instance.get('/newstories.json?print=pretty').then(res => res.data)
+        return instance.get('/topstories.json?print=pretty').then(res => res.data)
     }
 }
 

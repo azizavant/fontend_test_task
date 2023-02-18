@@ -6,6 +6,7 @@ import {getNewsIDsTC} from "../../store/newsPage-reducer";
 import {News} from "./News/News";
 import {useInfiniteScroll} from "../../hooks/useInfiniteScroll";
 
+
 export const NewsContainer = () => {
     const newsIDs = useSelector<AppRootStateType, any>(state => state.newsPageData.newsIDs);
     const dispatch = useDispatch<any>();
